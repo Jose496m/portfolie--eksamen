@@ -1,0 +1,51 @@
+/*************** billeder  *********************/
+img {
+  max-width: 100%;
+  display: block;
+  align-self: stretch;
+  object-fit: cover;
+  gap: 5%;
+}
+
+/*************** menu  *********************/
+header {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  align-items: center;
+  font-family: "Julius Sans One", sans-serif;
+  margin: 20px;
+}
+
+header a {
+  width: 10%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+nav ul li {
+  width: 200px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  padding: 15px;
+
+  border-radius: 30px;
+  font-size: 1.1rem;
+}
+/*************** TEKST  *********************/
+h1 {
+  font-family: "Shippori Mincho B1", serif;
+}
