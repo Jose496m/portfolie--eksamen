@@ -1,6 +1,5 @@
 /*************** billeder  *********************/
 img {
-  max-width: 100%;
   display: block;
   align-self: stretch;
   object-fit: cover;
