@@ -72,10 +72,32 @@ p {
   }
   p {
     width: 55ch;
-    font-size: 13px;
+    font-size: 11px;
     line-height: normal;
   }
   li {
     font-size: 12px;
+  }
+  .ommig {
+   
+    display: block;
+    width: 85%;
+    margin: 10%;
+    height: 300px;
+  }
+  .order {
+    height: 300px;
+    width: 85%;
+    margin: 10%;
+  }
+  .tekstommig {
+    height: 300px;
+    width: 85%;
+    margin: 10%;
+  }
+  .video{
+    height: 300px;
+    width: 85%;
+    margin: 10%;
   }
 }

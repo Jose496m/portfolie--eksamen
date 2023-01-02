@@ -8,3 +8,11 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+
+@media (max-width: 600px) {
+  .forside2{
+    width: 100%;
+   
+  }
+}
