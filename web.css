@@ -1,0 +1,68 @@
+body {
+    background-color: #efefef
+;
+  }
+
+  @media (min-width: 800px) {
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .knap{
+text-decoration: none;
+display: inline-block;
+border: 1px solid #000000;
+  margin: 5%;
+    }
+    .knap1:hover{
+        color: white;
+        background-color: #cccccc;
+    }
+    .studie{
+        width: 100%;
+    }
+    .studie2{
+        width: 90%;
+        margin: 5%;
+    }
+    .emne{
+        width: 100%;
+    }
+    .emne2{
+        width: 68%;
+        margin: -8%;
+    }
+    h1{
+        text-align: center;
+    }
+    .emne4{
+        margin: 10%;
+    }
+    h2{
+        text-align: left;
+        margin: 5%;
+    }
+    .emnesite{
+        margin: 10%;
+    }
+    p{
+        line-height: 28px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .knap{
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid #000000;
+          margin: 5%;
+            }
+            .knap1:hover{
+                color: white;
+                background-color: #cccccc;
+            }
+  }
