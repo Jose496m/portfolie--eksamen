@@ -17,6 +17,11 @@ header {
   color: white;
 }
 
+nav{
+  --less-than: 600;
+  --burger-lines: #000000;
+  --burger-borde: #000000;
+}
 header a {
   width: 10%;
 }
@@ -50,6 +55,7 @@ nav ul li a:hover {
 /*************** TEKST  *********************/
 h1 {
   font-family: "Shippori Mincho B1", serif;
+   margin: 5%;
 }
 p{
   font-family: 'Inconsolata', monospace;
@@ -57,4 +63,8 @@ p{
 a{
   font-family: 'Inconsolata', monospace;
 
+}
+h2{
+  font-family: "Shippori Mincho B1", serif;
+  font-size: 30px;
 }

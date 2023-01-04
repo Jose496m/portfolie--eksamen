@@ -48,6 +48,7 @@ border: 1px solid #000000;
     }
     p{
         line-height: 28px;
+        font-size: 83%;
     }
     .order{
         order: 2;
@@ -83,6 +84,9 @@ border: 1px solid #000000;
             }
             h2{
                 text-align: center;
+            }
+            .twist3{
+                width: 70%;
             }
           
   }

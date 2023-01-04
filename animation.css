@@ -1,0 +1,37 @@
+body {
+    background-color: #efefef;
+  }
+  @media (min-width: 800px){
+    h1{
+        text-align: center;
+    }
+    h2{
+        margin: 2%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .grid_4-4{
+        display: grid;
+        grid-template-columns: 4fr 4fr;
+    }
+    .spil{
+        width: 40%;
+        margin: 5%;
+    }
+    .spil2{
+        width:50%;
+        margin: 5%;
+    }
+
+  }
+
+  @media (max-width: 600px) {
+    .grid_2-2{
+display: grid;
+grid-template-columns: 3fr 3fr;
+    }
+    .spil{
+        width: 50%;
+        
+    }
+  }

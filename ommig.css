@@ -16,8 +16,9 @@ p {
   width: 60ch;
   font-size: 15px;
   line-height: normal;
-  font-family: "Shippori Mincho B1", serif;
+  font-family: 'Inconsolata', monospace;
   margin-right: auto;
+  line-height: 28px;
 }
 
 @media (min-width: 800px) {
@@ -49,6 +50,7 @@ p {
     font-size: 13px;
     line-height: normal;
     margin: 5%;
+    line-height: 28px;
   }
   h2 {
     margin: 5%;
@@ -62,7 +64,8 @@ p {
   }
   h2 {
     font-size: 25px;
-    text-align: left;
+    text-align: center;
+    margin: 5%;
   }
   header nav li {
     text-align: right;
@@ -74,6 +77,8 @@ p {
     width: 55ch;
     font-size: 11px;
     line-height: normal;
+    line-height: 25px;
+    margin: 5%;
   }
   li {
     font-size: 12px;
@@ -82,22 +87,22 @@ p {
    
     display: block;
     width: 85%;
-    margin: 10%;
+    margin: 5%;
     height: 300px;
   }
   .order {
     height: 300px;
     width: 85%;
-    margin: 10%;
+    margin: 5%;
   }
   .tekstommig {
     height: 300px;
     width: 85%;
-    margin: 10%;
+    margin: 5%;
   }
   .video{
     height: 300px;
     width: 85%;
-    margin: 10%;
+    margin: 5%;
   }
 }

@@ -1,0 +1,109 @@
+body {
+    background-color: #efefef;
+  }
+
+  @media (min-width: 800px){
+    .grid_2-2-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    h1{
+        text-align: center;
+        margin: 5%;
+    }
+    .order{
+        order: -1;
+        width: 95%;
+    }
+    .twist{
+        width: 84%;
+        margin: 1%;
+    }
+    .twist1{
+        width: 80%;
+        margin: 5%;
+    }
+    p{
+        line-height: 28px;
+        margin: 5%;
+        font-size: 92%;
+        width: 80%;
+    }
+    h2{
+        margin: 2%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .grid_1-1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid_2-2{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .order1{
+        order: 1;
+    }
+    .twist3{
+        width: 80%;
+        margin: 5%;
+      }
+      .twist4{
+        width: 80%;
+        margin: 5%;
+      }
+      .knap{
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid #000000;
+          margin: 5%;
+          padding: 1.2%;
+            }
+            .knap1:hover{
+                color: white;
+                background-color: #cccccc;
+            }
+
+  }
+  @media (max-width: 600px) {
+  .grid_2-2{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  .twist{
+    width: 100%;
+    
+}
+.twist1{
+    width: 90%;
+    margin: 2%;
+}
+   p{
+    width:94%;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 3%;
+   }
+   h2{
+    text-align: center;
+   }
+  .twist3{
+    width: 90%;
+  }
+  .twist4{
+    width: 100%;
+  }
+  .knap{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #000000;
+      margin: 5%;
+      padding: 1.2%;
+        }
+        .knap1:hover{
+            color: white;
+            background-color: #cccccc;
+        }
+   
+  }
