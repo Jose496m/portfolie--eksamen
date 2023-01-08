@@ -4,10 +4,7 @@ body {
 
   @media (min-width: 800px){
 
-.grid_2-2{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-}
+
 h1{
     text-align: center;
     margin: 5%;
@@ -15,6 +12,65 @@ h1{
 h2{
     text-align: center;
 }
+p{
+    width: 70%;
+text-align: left;
+line-height: 37px;
+margin: 12%;
+}
+.play{
+    width: 4%
+}
+
+
+.grid_2-2{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.img1{
+    width: 80%;
+    margin: 5%;
+}
+.img2{
+    width: 80%;
+    margin: 5%;
+}
+.img3{
+    width: 80%;
+    margin: 5%;
+}
+.grid_1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.redesignt{
+    width: 80%;
+    margin: 7%;
+    text-align: center;
+}
+.img4{
+    width: 80%;
+    margin: 5%;
+}
+.img5{
+    width: 80%;
+    margin: 5%;
+}
+.img6{
+    width: 80%;
+    margin: 5%;
+}
+.img7{
+    width: 80%;
+    margin: 5%;
+}
+
+
 video {
     width: 50%;
     margin: 3%;
@@ -39,23 +95,64 @@ video {
     padding-bottom: 0.8rem;
     margin-inline: auto;
     cursor: pointer;
+    margin: 2%;
   }
+
+  video {
+    width: 50%;
+    margin: 2%;
+    margin-inline: auto;
+  
+  }
+  .videoplayer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-playerbutton {
+    font-family: "Julius Sans One", sans-serif;
+    background-color: #cccccc;
+    color: white;
+    border-radius: 2rem;
+    text-decoration: none;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-inline: auto;
+    cursor: pointer;
+    width: 4%;
+    margin: 2%;
 
  
   }
+}
 
   @media (max-width: 600px){
-    .grid_2-2{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
+    h1{
+        text-align: center;
+        font-size: 27px;
+        margin: 5%;
     }
+    h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    p{
+        font-size: 12px;
+        margin: 2%;
+        width: 90%;
+        line-height: 18px;
+    }
+
     video {
-        width: 75%;
-        margin: 3%;
+        width: 100%;
+        margin: 2%;
         margin-inline: auto;
       
       }
-      .video-player {
+      .video-player  {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -73,6 +170,72 @@ video {
         padding-bottom: 0.8rem;
         margin-inline: auto;
         cursor: pointer;
-       
+        width: 13%;
       }
+
+
+.grid_1-1-1-1{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+      
+      
+      .img1 {
+       
+        width: 100%;
+      }
+      .img2 {
+        width: 175px;
+        margin: 2%;
+      }
+      .img3 {
+      width: 175px;
+      margin: 2%;
+      }
+
+      .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .img4 {
+       
+        width: 100%;
+      }
+      .img5 {
+        width: 175px;
+        margin: 2%;
+      }
+      .img6 {
+      width: 175px;
+      margin: 2%;
+      }
+      .img7 {
+        width: 175px;
+        margin: 2%;
+        }
+
+        .videoplayer  {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          .video-playerbutton {
+            font-family: "Julius Sans One", sans-serif;
+            background-color: #cccccc;
+            color: white;
+            border-radius: 2rem;
+            text-decoration: none;
+            padding-left: 2.3rem;
+            padding-right: 2.3rem;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+            margin-inline: auto;
+            cursor: pointer;
+            width: 13%;
+        
+         
+          }
+         
+     
   }
