@@ -4,6 +4,7 @@ img {
   align-self: stretch;
   object-fit: cover;
   gap: 5%;
+
 }
 
 /*************** menu  *********************/
@@ -50,7 +51,7 @@ nav ul li a:hover {
   border-radius: 30px;
   font-size: 1.1rem;
   color: white;
-  background-color: #cccccc;
+  background-color: #8aa48aa1;
 }
 /*************** TEKST  *********************/
 h1 {

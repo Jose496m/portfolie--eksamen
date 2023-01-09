@@ -30,14 +30,17 @@ margin: 12%;
 .img1{
     width: 80%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
 }
 .img2{
     width: 80%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
 }
 .img3{
     width: 80%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
 }
 .grid_1-1-1-1{
     display: grid;
@@ -52,22 +55,27 @@ margin: 12%;
     width: 80%;
     margin: 7%;
     text-align: center;
+
 }
 .img4{
     width: 80%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
 }
 .img5{
     width: 80%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
 }
 .img6{
     width: 80%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
 }
 .img7{
     width: 80%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
 }
 
 
@@ -85,7 +93,7 @@ video {
   
   .video-player-button {
     font-family: "Julius Sans One", sans-serif;
-    background-color: #cccccc;
+    background-color: #8aa48aa1;
     color: white;
     border-radius: 2rem;
     text-decoration: none;
@@ -112,7 +120,7 @@ video {
   
   .video-playerbutton {
     font-family: "Julius Sans One", sans-serif;
-    background-color: #cccccc;
+    background-color: #8aa48aa1;
     color: white;
     border-radius: 2rem;
     text-decoration: none;
@@ -160,7 +168,7 @@ video {
       
       .video-player-button {
         font-family: "Julius Sans One", sans-serif;
-        background-color: #cccccc;
+        background-color: #8aa48aa1;
         color: white;
         border-radius: 2rem;
         text-decoration: none;
@@ -183,14 +191,17 @@ video {
       .img1 {
        
         width: 100%;
+        border: 3px solid #8aa48aa1;
       }
       .img2 {
         width: 175px;
         margin: 2%;
+        border: 3px solid #8aa48aa1;
       }
       .img3 {
       width: 175px;
       margin: 2%;
+      border: 3px solid #8aa48aa1;
       }
 
       .grid_1-1{
@@ -200,18 +211,22 @@ video {
       .img4 {
        
         width: 100%;
+        border: 3px solid #8aa48aa1;
       }
       .img5 {
         width: 175px;
         margin: 2%;
+        border: 3px solid #8aa48aa1;
       }
       .img6 {
       width: 175px;
       margin: 2%;
+      border: 3px solid #8aa48aa1;
       }
       .img7 {
         width: 175px;
         margin: 2%;
+        border: 3px solid #8aa48aa1;
         }
 
         .videoplayer  {
@@ -222,7 +237,7 @@ video {
           
           .video-playerbutton {
             font-family: "Julius Sans One", sans-serif;
-            background-color: #cccccc;
+            background-color: #8aa48aa1;
             color: white;
             border-radius: 2rem;
             text-decoration: none;

@@ -17,27 +17,33 @@ border: 1px solid #000000;
     }
     .knap1:hover{
         color: white;
-        background-color: #cccccc;
+        background-color: #8aa48aa1;
     }
     .studie{
-        width: 100%;
+        width: 95%;
+        border: 3px solid #8aa48aa1;
     }
     .studie2{
         width: 90%;
         margin: 5%;
+        
     }
     .emne{
-        width: 100%;
+        width: 90%;
+        margin: 5%;
+        border: 3px solid #8aa48aa1;
     }
     .emne2{
         width: 68%;
         margin: 5%;
+        
     }
     h1{
         text-align: center;
     }
     .emne4{
         margin: 5%;
+       
     }
     h2{
         text-align: left;
@@ -68,7 +74,7 @@ border: 1px solid #000000;
             }
             .knap1:hover{
                 color: white;
-                background-color: #cccccc;
+                background-color: #8aa48aa1;
             }
             p{
                 font-size: 12px;
@@ -77,16 +83,25 @@ border: 1px solid #000000;
                 margin: 5%;
             }
             .studie{
-                width: 380px;
+                width: 90%;
+                border: 3px solid #8aa48aa1;
+                margin: 5% ;
             }
             h1{
                 text-align: center;
+                font-size: 31px;
             }
             h2{
                 text-align: center;
             }
             .twist3{
                 width: 70%;
+                border: 3px solid #8aa48aa1;
+            }
+            .emne{
+                border: 3px solid #8aa48aa1;
+                width: 90%;
+                margin: 5%;
             }
           
   }

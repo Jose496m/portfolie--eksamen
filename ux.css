@@ -16,12 +16,14 @@ body {
         width: 95%;
     }
     .twist{
-        width: 84%;
-        margin: 1%;
+        width: 80%;
+        margin: 5%;
+        border: 3px solid #8aa48aa1;
     }
     .twist1{
         width: 80%;
         margin: 5%;
+        border: 3px solid #8aa48aa1;
     }
     p{
         line-height: 28px;
@@ -48,10 +50,12 @@ body {
     .twist3{
         width: 80%;
         margin: 5%;
+        border: 3px solid #8aa48aa1;
       }
       .twist4{
         width: 80%;
         margin: 5%;
+        border: 3px solid #8aa48aa1;
       }
       .knap{
         text-decoration: none;
@@ -62,7 +66,7 @@ body {
             }
             .knap1:hover{
                 color: white;
-                background-color: #cccccc;
+                background-color: #8aa48aa1;
             }
 
   }
@@ -73,11 +77,13 @@ body {
   }
   .twist{
     width: 100%;
+    border: 3px solid #8aa48aa1;
     
 }
 .twist1{
     width: 90%;
     margin: 2%;
+    border: 3px solid #8aa48aa1;
 }
    p{
     width:94%;
@@ -90,9 +96,11 @@ body {
    }
   .twist3{
     width: 90%;
+    border: 3px solid #8aa48aa1;
   }
   .twist4{
     width: 100%;
+    border: 3px solid #8aa48aa1;
   }
   .knap{
     text-decoration: none;
@@ -103,7 +111,7 @@ body {
         }
         .knap1:hover{
             color: white;
-            background-color: #cccccc;
+            background-color: #8aa48aa1;
         }
    
   }

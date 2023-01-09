@@ -1,3 +1,107 @@
 body {
     background-color: #efefef;
   }
+
+  @media (min-width: 800px){
+    .grid_2-2{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    h1{
+        text-align: center;
+    }
+    .img1{
+        margin: 5%;
+        width: 90%;
+        border: 3px solid #8aa48aa1;
+    }
+    .img2{
+        margin: 5%;
+        width: 90%;
+        border: 3px solid #8aa48aa1;
+    }
+    h2{
+        text-align: center;
+    }
+    .p1{
+        text-align: center;
+       
+    }
+    p{
+        
+        line-height: 30px;
+        margin: 5%;
+    }
+    .img3{
+        width: 90%;
+        margin: 5%;
+        border: 3px solid #8aa48aa1;
+            }
+    .img4{
+        width: 90%;
+        margin: 5%;
+        border: 3px solid #8aa48aa1;
+            }
+            .knap{
+                text-decoration: none;
+                display: inline-block;
+                border: 1px solid #000000;
+                  margin: 4%;
+                  padding: 1.2%;
+                    }
+                    .knap1:hover{
+                        color: white;
+                        background-color: #8aa48aa1;
+                    }
+  }
+
+  @media (max-width: 600px){
+    .grid_2-2{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .knap{
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid #000000;
+          margin: 5%;
+          padding: 1.2%;
+            }
+            .knap1:hover{
+                color: white;
+                background-color: #8aa48aa1;
+            }
+    .img1{
+        width: 90%;
+        margin: 2%;
+        border: 3px solid #8aa48aa1;
+    }
+    .img2{
+        width: 90%;
+        margin: 5%;
+        border: 3px solid #8aa48aa1;
+    }
+    .p1{
+        text-align: center;
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 20px;
+        margin: 5%;
+    }
+    h2{
+        text-align: center;
+    }
+    .img3{
+width: 90%;
+margin: 2%;
+border: 3px solid #8aa48aa1;
+    }
+    .img4{
+width: 90%;
+margin: 5%;
+border: 3px solid #8aa48aa1;
+    }
+  }

@@ -4,6 +4,7 @@
   width: 60%;
   margin: 5%;
   height: 400px;
+  border: 3px solid #8aa48aa1;
 }
 body {
   background-color: #efefef;
@@ -31,19 +32,22 @@ p {
     height: 390px;
     width: 100%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
   }
   .tekstommig {
     height: 300px;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
   }
   .jord {
     margin: 5%;
     position: absolute;
-   
+    
     top: 1100px;
   }
   .ommig2 {
     margin: 5%;
+    
   }
   p {
     width: 55ch;
@@ -59,6 +63,7 @@ p {
    position: absolute;
    left: 740px;
    top: 362px;
+   
   }
 
   .video{
@@ -68,11 +73,17 @@ p {
   .MMD2{
     margin: 2%;
     width: 400px;
+    border: 3px solid #8aa48aa1;
   }
   .udd{
     position: absolute;
    left: 740px;
    top: 1173px;
+   
+  }
+  .om{
+    margin: 5%;
+    
   }
 }
 
@@ -108,16 +119,19 @@ p {
     width: 85%;
     margin: 5%;
     height: 300px;
+    border: 3px solid #8aa48aa1;
   }
   .order {
     height: 300px;
     width: 85%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
   }
   .tekstommig {
     height: 300px;
     width: 85%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
   }
   .video{
     height: 300px;
@@ -127,5 +141,6 @@ p {
   .MMD2{
     width: 85%;
     margin: 5%;
+    border: 3px solid #8aa48aa1;
   }
 }
